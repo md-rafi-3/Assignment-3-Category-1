@@ -25,6 +25,10 @@
         .sora{
             font-family: "Sora", serif;
         }
+        
+        .text-colors{
+            color: #111111;
+        }
     </style>
 </head>
 <body class="sora">
@@ -36,7 +40,7 @@
             <!-- logo -->
          <div class="flex items-center gap-4">
          <img src="c1-assets/logo-header.png" alt="">
-         <h1 class="hidden text-lg lg:block md:block">Browse<span class="text-[#FFDC26]">4</span >Pets</h1>
+         <h1 class="hidden text-lg lg:block md:block ">Browse<span class="text-[#FFDC26]">4</span >Pets</h1>
          </div>
 
          <ul class="hidden gap-6 text-lg lg:flex md:flex">
@@ -50,14 +54,39 @@
             <i class="hidden fa-regular fa-bell lg:block md:block "></i>
             <i class="hidden fa-solid fa-magnifying-glass lg:block md:block "></i>
 
-            <button class="hidden border lg:block md:block border-[#FFDC26] px-6 py-2" >Login</button>
-            <button class="hidden px-6 py-2 lg:block md:block bg-[#FFDC26]">Register</button>
+            <button class="hidden border lg:block md:block border-[#FFDC26] px-6 py-2 rounded-lg" >Login</button>
+            <button class="hidden px-6 py-2 lg:block md:block bg-[#FFDC26] rounded-lg">Register</button>
 
             <i class="fa-solid fa-bars-staggered"></i>
             
          </div>
         </nav>
-
+        
+        <!-- Banner -->
+      
+        <div class="container px-5 py-5 mx-auto lg:py-10 lg:px-14 md:py-10 md:px-14">
+               <!-- container -->
+            <div class="flex flex-col flex-1">
+                <!-- containt -->
+                 <div class="z-10 lg:absolute md:absolute">
+                    <h1 class="text-3xl font-normal adlam-display lg:text-6xl">Pamper Your Pet,<br > Because They Deserve <br> the Bes</h1>
+                    
+                    <p class="pr-4 text-base font-normal lg:text-xl md:text-lg opacity-70 lg:mt-4 md:mt-4 ">Discover a world of treats, toys, and essentials handpicked for <br class="hidden lg:block md:block"> your furry friends. Shop now and make tails wag with joy!</p>
+                    
+                    <button class="bg-[#FFDC26] rounded-lg px-3 py-2 lg:mt-5 md:mt-5 mt-3">Find a pet</button>
+                    
+                    
+                 </div>
+                 
+                 <!-- image -->
+                  <div class="absolute lg:static md:static top-64">
+                    <img class="" src="c1-assets/cat-big.png" alt="">
+                  </div>
+                
+             </div>
+    
+            
+        </div>
          
 
         </header>
